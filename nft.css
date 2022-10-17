@@ -1,0 +1,67 @@
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(215, 32%, 27%);
+    font-family: 'Outfit', sans-serif;
+}
+/*conatiner*/
+.container {
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 7%;
+    box-shadow: 5px 5px 10px 10px black;
+    background-color: hsl(215, 32%, 27%);
+    border-radius: 10px;
+    color: white;
+}
+.container img {
+    width: 250px;
+    border-radius: 10px;
+}
+.icons {
+    display: flex;
+   justify-content: space-between;
+}
+.eth img {
+    width: 9px;
+    padding: 0;
+}
+.eth p {
+    font-weight: 300px;
+    color: hsl(178, 100%, 50%);
+    margin-left: 5px;
+}
+.clock img {
+    width: 12px;
+}
+
+.lasticon {
+    display: flex;
+} 
+.lasticon img {
+    width: 30px;
+    padding-top: 5px;
+    padding-right: 2px;
+    height: 30px;
+    border-radius: 50px;
+}
+.lasticon p {
+    padding-left: 3px;
+    padding-bottom: 4px;
+}
+.line {
+    background-color: aliceblue;
+    height: 1px;
+}
+span {
+    font-weight: bold;
+    color: white;
+}
+p {
+    color: hsl(215, 51%, 70%)
+}
