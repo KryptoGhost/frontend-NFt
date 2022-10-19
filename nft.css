@@ -55,8 +55,9 @@ body {
 }
 .lasticon img {
     width: 30px;
-    padding-top: 4px;
+    padding-top: 1px;
     padding-right: 2px;
+    padding-bottom: 1px;
     height: 30px;
     border-radius: 50px;
 }
